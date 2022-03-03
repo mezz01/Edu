@@ -84,6 +84,7 @@ section{
       color: var(--color-black);
       padding: 1rem 2rem;
       border: 1px solid transparent;
+      border-radius: 6%;
       font-weight: 500;
       transition: var(--transition);
   }
@@ -140,6 +141,7 @@ section{
 
 /**********    Header    *******/
 header{
+    
     position: relative;
     top: 5rem;
     overflow: hidden;
@@ -155,7 +157,9 @@ header{
     height: 100%;
 }
 
-
+.header_left p {
+    margin: 1.3rem 0 2.7rem;
+}
   
 
 
