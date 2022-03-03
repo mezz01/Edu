@@ -128,10 +128,17 @@ section{
       gap: 4rem;
   }
 
-  .nav_menu a {
+  .nav_menu  a {
       font-size: 0.9rem;
+      transition: var(--transition);
   }
-  
+
+  .nav_menu  a:hover{
+      color: var(--color-bg2);
+  }
+
+
+
 
   
 
