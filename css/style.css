@@ -24,7 +24,7 @@
     --container-width-md:90%;
     --container-width-sm:94%;
 
-    --transition: all 400ms ease;
+    --transition: all 500ms ease;
 }
 
 body{
@@ -95,7 +95,7 @@ section{
       border-color: var(--color-white);
   }
 
-  .btn-primary {
+  .btn_primary {
       background: var(--color-danger);
       color: var(--color-white);
   }
@@ -136,6 +136,11 @@ section{
 
   .nav_menu  a:hover{
       color: var(--color-bg2);
+  }
+
+  .window_scroll {
+      background: var(--color-primary);
+      transition: var(--transition);
   }
 
 
