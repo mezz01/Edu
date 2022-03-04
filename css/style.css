@@ -9,8 +9,8 @@
 }
 
 :root{
-    --color-primary:#45a29e;
-    --color-success:#00bf8e;
+    --color-primary:#377e7a;
+    --color-success:#07be72;
     --color-warning: #d79922;
     --color-danger:#fc4445;
     --color-danger-variant:rgba(255,255,255,0.7);
@@ -67,6 +67,11 @@ section{
  h4 {
      font-size: 1.3rem;
  }
+ 
+ h4 strong {
+    font-size: 1.5rem; 
+    font-weight: 700;
+} 
 
  a{
      color: var(--color-white);
