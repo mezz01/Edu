@@ -9,16 +9,16 @@
 }
 
 :root{
-    --color-primary:#6c63ff;
+    --color-primary:#45a29e;
     --color-success:#00bf8e;
-    --color-warning: #f7c94b;
-    --color-danger:#f75842;
+    --color-warning: #d79922;
+    --color-danger:#fc4445;
     --color-danger-variant:rgba(255,255,255,0.7);
     --color-white:#fff;
     --color-black:#000;
-    --color-bg:#1f2641;
-    --color-bg1:#2e3267;
-    --color-bg2:#424890;
+    --color-bg:#0b0c10;
+    --color-bg1:#1f2833;
+    --color-bg2:#45a29e;
 
     --container-width-lg:76%;
     --container-width-md:90%;
@@ -80,7 +80,7 @@ section{
 
   .btn{
       display: inline-block;
-      background: var(--color-white);
+      background: var(--color-bg2);
       color: var(--color-black);
       padding: 1rem 2rem;
       border: 1px solid transparent;
@@ -91,8 +91,8 @@ section{
 
   .btn:hover{
       background: transparent;
-      color: var(--color-white);
-      border-color: var(--color-white);
+      color: var(--color-bg2);
+      border-color: var(--color-bg2);
   }
 
   .btn_primary {
@@ -202,7 +202,7 @@ header{
 }
 
 .category:hover {
-   box-shadow: 0 2.5rem 2.5rem rgba(0,0,0,0.3); 
+   box-shadow: 0 2.5rem 2.5rem rgba(0,0,0,0.7); 
    cursor:grab;
    z-index: 1;
 }
