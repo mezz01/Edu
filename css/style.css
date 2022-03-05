@@ -353,7 +353,7 @@ footer ul li {
 }
 
 footer ul li a:hover {
-    text-decoration: underline;
+   color: var(--color-bg2);
 }
 
 .footer_social {
@@ -361,6 +361,12 @@ display: flex;
 gap: 1rem;
 font-size: 1.2rem;
 margin-top: 2rem;
+transition: var(--transition);
+}
+
+.footer_social li a:hover {
+  color: var(--color-bg2);
+  transform: scale(1 , 1);
 }
 
 .footer_copyright {
@@ -368,6 +374,8 @@ margin-top: 2rem;
     margin-top: 4rem;
     padding: 1.2rem 0;
     border-top: 1px solid var(--color-bg2);
+    margin-left: 5rem ;
+    margin-right: 5rem;
 }
 
 
