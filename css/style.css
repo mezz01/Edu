@@ -279,4 +279,57 @@ header{
 
 
 
+/*********** Reviews ******************/
+.reviews_container {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 5rem;
+}
 
+.review {
+    padding-top: 2rem;
+}
+
+.profile {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+    border: 1rem solid var(--color-bg1);
+}
+
+.review_info {
+    text-align: center;
+}
+
+.review_body {
+background: var(--color-primary);
+padding: 2rem;
+margin-top: 3rem;
+position: relative;
+}
+
+.review_body::before {
+  content: "";
+  display: block;
+  background: var(--color-primary);
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  left: 50%;
+  top: -1.5rem;
+  transform: rotate(45deg);
+}
+
+.swiper-wrapper {
+   overflow: auto;
+   
+}
+
+
+footer {
+    background-color: var(--color-bg1);
+    padding-top: 5rem;
+    font-size: 0.9rem;
+}
