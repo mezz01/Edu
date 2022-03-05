@@ -280,7 +280,7 @@ header{
 
 
 /*********** Reviews ******************/
-.reviews_container {
+.review_container {
     overflow: hidden;
     position: relative;
     margin-bottom: 5rem;
@@ -322,9 +322,8 @@ position: relative;
   transform: rotate(45deg);
 }
 
-.swiper-wrapper {
-   overflow: auto;
-   
+.swiper-pagination {
+    color: var(--color-bg2);
 }
 
 
@@ -333,3 +332,22 @@ footer {
     padding-top: 5rem;
     font-size: 0.9rem;
 }
+
+.footer_conatiner {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5rem;
+}
+
+.footer_conatiner > div h4 {
+    margin-bottom: 1.2rem;
+}
+
+.footer1 p {
+    margin:  0 0 2rem;
+}
+
+footer ul li {
+    margin-bottom: 0.7rem;
+}
+
