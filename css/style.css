@@ -322,24 +322,19 @@ position: relative;
   transform: rotate(45deg);
 }
 
-.swiper-pagination {
-    color: var(--color-bg2);
-}
-
-
 footer {
     background-color: var(--color-bg1);
     padding-top: 5rem;
     font-size: 0.9rem;
 }
 
-.footer_conatiner {
+.footer_container {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     gap: 5rem;
 }
 
-.footer_conatiner > div h4 {
+.footer_container > div h4 {
     margin-bottom: 1.2rem;
 }
 
@@ -347,7 +342,32 @@ footer {
     margin:  0 0 2rem;
 }
 
+.footer1 h5 span {
+    background: rgb(57, 10, 77);
+     padding: 6px;
+     margin: 3px;
+}
+
 footer ul li {
     margin-bottom: 0.7rem;
 }
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer_social {
+display: flex;
+gap: 1rem;
+font-size: 1.2rem;
+margin-top: 2rem;
+}
+
+.footer_copyright {
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1.2rem 0;
+    border-top: 1px solid var(--color-bg2);
+}
+
 
