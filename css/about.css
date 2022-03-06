@@ -1,0 +1,79 @@
+/************    General root    **********/
+:root{
+    --color-primary:#377e7a;
+    --color-success:#07be72;
+    --color-warning: #d79922;
+    --color-danger:#fc4445;
+    --color-danger-variant:rgba(255,255,255,0.7);
+    --color-white:#fff;
+    --color-black:#000;
+    --color-bg:#0b0c10;
+    --color-bg1:#1f2833;
+    --color-bg2:#45a29e;
+
+    --container-width-lg:76%;
+    --container-width-md:90%;
+    --container-width-sm:94%;
+
+    --transition: all 0.6s ease;
+}
+
+/******     GOALS   *****/
+
+
+.goals {
+    margin-top: 3rem;
+}
+
+.goals_container {
+    display:grid;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+}
+
+.goals_right > p {
+      margin: 1.6rem 0 2.5rem;
+}
+
+.goals_cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+}
+
+.goal_card {
+    background: var(--color-bg1);
+    padding: 1.6rem;
+    border-radius: 1rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.goal_card:hover {
+    background: var(--color-bg2);
+    box-shadow: 0 3rem 3rem rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+
+.goal_icon {
+    background: var(--color-danger);
+    padding: 0.6rem;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+
+.goal_card:nth-child(2) .goal_icon {
+    background: var(--color-success);
+}
+
+.goal_card:nth-child(3) .goal_icon {
+    background: var(--color-primary);
+}
+
+.goal_card {
+    margin-top: 1rem;
+
+}
