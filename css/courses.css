@@ -21,20 +21,25 @@
 
 /**   Courses    */
 
-.courses {
-    margin-top: 10rem;
+.coursess {
+    margin-top: 12rem; 
 }
 
+.coursess h2 {
+    margin-bottom: 10rem;
+}
 .courses_con {
     display: grid;
     grid-template-columns: repeat(1 , 1fr);
     gap: 2rem;
+  
 }
 
 .course {
     background: var(--color-bg1);
     text-align: center;
     border: 1px solid transparent;
+
 }
 
 .course:hover {
